@@ -32,7 +32,7 @@ After like 2/3 minutes the website has passwordless access to your storage accou
 4. Enter your storage account name in the `MyStorageAccountName` variable.
 5. Deploy to azure
 
-![publish](images\publish.JPG)
+![publish](images/publish.JPG)
 
 
 
