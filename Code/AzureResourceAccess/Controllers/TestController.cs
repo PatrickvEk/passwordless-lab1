@@ -12,7 +12,7 @@ namespace AzureResourceAccess.Controllers
     public class TestController : ApiController
     {
         // make sure you created this storage account
-        private const string MyStorageAccountName = "passwordless";
+        private const string MyStorageAccountName = "<your storage account name>";
 
 
         // these will be created for you
