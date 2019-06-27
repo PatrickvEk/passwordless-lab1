@@ -1,6 +1,3 @@
-# Passwordless usage of Azure Storage from AppService
-
-
 ## Deploying
 
 Get yourself a storageaccount and a website:
@@ -19,7 +16,9 @@ Managed Identity is already enabled on the website for you!
 
 After deployment to to your **storage account** en select **Access Control** and select **Add**.
 
-Select the role of **Storage Blob Data Owner**, select **App Service** and then select the website you just deployed.
+Select the role of "**Owner**", select **App Service** and then select the website you just deployed.
+
+**ALSO:** do this step again and select "**Storage Blob Data Owner**"
 
 ![Creating a Batch service](images/rbac.jpg)
 

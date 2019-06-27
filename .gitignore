@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /AzureResourceAccess/Properties/PublishProfiles/*.pubxml
+/Code/AzureResourceAccess/Properties/PublishProfiles/*.pubxml
