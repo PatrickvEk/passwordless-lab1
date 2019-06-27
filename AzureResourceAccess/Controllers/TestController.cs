@@ -45,7 +45,7 @@ namespace AzureResourceAccess.Controllers
                 CloudBlockBlob blob = container.GetBlockBlobReference(Blob1Txt);
 
                 // Upload text to the blob.
-                await blob.UploadTextAsync($"That's ma blob! {blob.Name}");
+                await blob.UploadTextAsync($"That's ma blob! '{blob.Name}'");
 
 
                 return await blob.DownloadTextAsync();
